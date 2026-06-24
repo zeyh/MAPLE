@@ -16,7 +16,8 @@ DOI: 10.1109/TVCG.2026.3694000
 ## Requirements
 - Python 3  
 - PyTorch  
-- Other dependencies as used in the scripts (e.g. numpy, UMAP, scikit-learn for evaluation)
+- UMAP
+- Other dependencies as used in the scripts
 
 ## Under construction... Contact
 zeyang.huang [at] liu.se

@@ -15,8 +15,8 @@ from torch.utils.data import TensorDataset, DataLoader
 import torch.nn.functional as F
 from torch.amp import autocast, GradScaler
 
-from models.mmcr_model import Model as MMCR_Model
-from training.loss_functions import MMCR_Loss, BarlowTwinsLoss
+from maple.models.mmcr_model import Model as MMCR_Model
+from maple.training.loss_functions import MMCR_Loss, BarlowTwinsLoss
 from utils.mmcr_utils import organize_manifolds, organize_manifolds_soft, build_view2
 
 

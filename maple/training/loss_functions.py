@@ -73,7 +73,7 @@ class MMCR_Loss(nn.Module):
 
 
     def forward(self, z: Tensor, weights: Tensor = None) -> Tuple[Tensor, dict]:
-        from config import CONFIG_MMCR
+        from config.default_config import CONFIG_MMCR
 
         z = F.normalize(z, dim=-1)
         z_local_ = einops.rearrange(z, "(B N) C -> B C N", N=self.n_aug)
