@@ -1,8 +1,10 @@
 # MAPLE: Self-Supervised Learning-Enhanced Nonlinear Dimensionality Reduction for Visual Analysis
 DOI: 10.1109/TVCG.2026.3694000
 
+Live demo of the results: https://zeyh.github.io/eval_tmp.github.io/
+
 ## Info
-- `main.py` — example script to run the algorithm
+- **`main.py`** — minimal example script to run the algorithm
 - **`maple/`** — algorithm and config  
   - `models/mmcr_model.py` 
   - `..config/default_config.py` — Datasets, training and MMCR/BT hyperparameters  
