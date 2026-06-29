@@ -21,5 +21,5 @@ Live demo of the results: https://zeyh.github.io/eval_tmp.github.io/
 - UMAP
 - Other dependencies as used in the scripts
 
-## Under construction... Contact
+## Contact
 zeyang.huang [at] liu.se
